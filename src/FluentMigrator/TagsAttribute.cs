@@ -6,12 +6,10 @@ namespace FluentMigrator
     /// Used to filter which migrations are run.
     ///</summary>
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = true, Inherited = true)]
-    [CLSCompliant(false)]
     public class TagsAttribute : Attribute
     {
         public string[] TagNames { get; private set; }
 
-        [CLSCompliant(false)]
         public TagsAttribute(params string[] tagNames)
         {
             TagNames = tagNames;

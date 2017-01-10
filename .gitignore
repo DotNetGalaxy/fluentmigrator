@@ -33,3 +33,5 @@ src/FluentMigrator.T4.Tests/IntialMigrationCode.cs
 #StyleCop
 *.StyleCop
 /TestResults
+.vs/
+project.lock.json
